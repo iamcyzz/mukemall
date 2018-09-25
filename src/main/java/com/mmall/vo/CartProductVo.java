@@ -15,11 +15,11 @@ public class CartProductVo {
     private Integer quantity;//购物车中此商品的数量
     private String productName;
     private String productSubtitle;
-    private String productMainImage;
-    private BigDecimal productPrice;
-    private Integer productStatus;
-    private BigDecimal productTotalPrice;
-    private Integer productStock;
+    private String productMainImage;//商品主图片
+    private BigDecimal productPrice;//商品价格
+    private Integer productStatus;//商品的状态
+    private BigDecimal productTotalPrice;//订单总价
+    private Integer productStock;//商品库存
     private Integer productChecked;//此商品是否勾选
 
     private String limitQuantity;//限制数量的一个返回结果
